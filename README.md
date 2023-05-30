@@ -4,8 +4,8 @@ Este é o projeto do terceiro dia do desafio "100 Days of Code". O objetivo é c
 
 ## Demonstração
 
-![Landing Page](./imagens/Dia%203%20-%20P%C3%A1gina%20de%20Destino%20Responsiva.png)
-![Vídeo Apresentação](./imagens/dia_3_-_layout_responsivo_AdobeExpress.gif)
+<img src="./imagens/Dia%203%20-%20P%C3%A1gina%20de%20Destino%20Responsiva.png" alt="Landing Page" width="50%">
+<img src="./imagens/dia_3_-_layout_responsivo_AdobeExpress.gif" alt="Video" width="50%">
 
 ## Características
 
