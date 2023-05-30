@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+  
+body {
+    background-color: #FEF1F1;
+    width: 100%;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+header {
+    background-color: #d9d9d9;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 15px 40px;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    justify-content: space-between;
+    margin: 15px 40px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main #oferta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 80px;
+    padding: 0 40px;
+}
+
+main #oferta img{
+    width: 477px;
+    max-width: 100%;
+    height: auto;
+}
+
+main #oferta .texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main #oferta .texto p{
+    font-size: 48px;
+    font-weight: 400;
+    max-width: 639px;
+}
+
+main #oferta .texto p b{
+    color: #FF0431;
+}
+
+main #oferta .texto span{
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+main #oferta .texto .preco{
+    font-weight: 700;
+    font-size: 40px;
+    color: #2EC659;
+    margin-bottom: 50px;
+}
+
+main #oferta .texto button{
+    width: 317px;
+    height: 81px;
+    background-color: #282828;
+    color: white;
+    border-radius: 20px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+main #midias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    padding: 0 40px;
+}
+
+main #midias ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+main #midias li{
+    background-color: #282828;
+    width: 290px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 40px;
+}
+
+main #midias .gatoPreto{
+    width: 290px;
+    height: 290px;
+}
+
+main #midias .gatoFrajola{
+    width: 290px;
+    height: 200px;
+}
+
+main #midias .gatoLaranja{
+    width: 290px;
+    height: 208px;
+}
+
+main #contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    padding: 0 40px;
+}
+main #contato ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+main #contato ul li img{
+    width: 40px;
+    height: 40px;
+}
+
+footer{
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    padding: 37px;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
